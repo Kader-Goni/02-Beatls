@@ -1,0 +1,1093 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.clr{
+    clear: both;
+}
+
+
+.full-wrapper{
+    width: 100%;
+}
+
+.container{
+    width: 940px; 
+    margin: 0 auto;
+}
+
+
+/*==================
+Common CSS ends 
+==================== */ 
+
+@font-face{
+    font-family: 'OpenSans-Regular';
+    src: url(../webfonts/fonts/OpenSans/OpenSans-Regular.ttf);
+}
+
+/* font-family: 'Oswald', sans-serif; */
+
+/*==================
+Font import CSS ends 
+==================== */ 
+
+
+.mr-20{
+    margin-right: 20px;
+}
+
+.mx-20{
+    margin: 0 20px;
+} 
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+
+.mr-15{
+    margin-right: 15px;
+}
+
+
+
+.mb-10{
+    margin-bottom: 10px;
+}
+
+
+/*==================
+Spacing CSS ends 
+==================== */ 
+
+
+
+.heading{
+    text-align: center; 
+    position: relative;
+}
+
+
+.heading h3{
+    font-family: 'Oswald', sans-serif; 
+    font-weight: 500;
+    font-size: 24px; 
+    color: #353535; 
+    text-transform: uppercase;
+} 
+
+.heading .line{
+    position: absolute;
+    top: 20px;
+    
+}
+
+.heading span{
+    height: 1px;
+    background: #0872b9;
+    display: inline-block; 
+} 
+
+.heading .line1{
+    width: 47px; 
+    margin-right: 3px;
+}
+
+.heading .line2{
+    width: 4px; 
+    margin-right: 2px;
+}
+
+
+.heading .line3{
+    width: 2px; 
+    margin-right: 2px;
+    
+}
+
+.heading .line4{
+    width: 1px;
+}
+
+
+
+
+/*==================
+Heading import CSS ends 
+==================== */
+
+
+.header-bg{
+    height: 32px;
+    background: #0872b9;
+}
+
+.header-bg .header{
+    height: 32px;
+}
+
+
+.header .header-text{
+    width: 720px;
+    height: 32px;
+    float: left; 
+}
+
+.header-text p{
+    font-family: 'OpenSans-Regular';
+    font-size: 14px;
+    color: #e7e7e7; 
+    line-height: 32px; 
+}
+
+.header .header-icon{
+    width: 220px;
+    height: 32px;
+    float: left; 
+}
+
+.header .header-icon ul{
+    float: right;
+}
+
+
+.header .header-icon ul li{
+    float: left; 
+}
+
+.header .header-icon ul li a i { 
+    color: #e7e7e7;
+    font-size: 14px;
+    line-height: 32px; 
+    margin-left: 25px;
+    transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -webkit-transition: all linear .4s; 
+
+} 
+
+.header-icon ul li a i:hover{
+    color: #353535;
+}
+
+
+
+
+/*==================
+Header CSS ends 
+==================== */ 
+
+
+.menu-bg{
+    height: 80px;
+}
+
+.menu-bg .menu{
+    height: 80px;
+}
+
+.menu .menu-logo{
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
+.menu .menu-logo img{
+    width: 100%;
+    padding-top: 20px;
+}
+
+.menu .menu-list{ 
+    width: 860px;
+    height: 80px;
+    float: left; 
+} 
+
+.menu .menu-list ul{
+    float: right;
+}
+
+.menu .menu-list ul li{
+    float: left;
+}
+
+.menu .menu-list ul li a{
+    color: #353535;
+    line-height: 80px;
+    font-size: 14px;
+    font-family: 'OpenSans-Regular';
+    margin-left: 16px;
+    transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+
+} 
+
+.menu .menu-list ul li a:hover{
+    color: #0872b9;
+} 
+
+
+
+
+/*==================
+Menu CSS ends 
+==================== */ 
+
+
+
+.banner-bg{
+    height: 400px;
+    background: url(../images/banner-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.banner-bg::after{
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+
+}
+
+.banner-bg .banner{
+    height: 400px;
+    text-align: right;
+    color: #fff;
+}
+
+.banner h2{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif; 
+    text-transform: uppercase; 
+    padding-top: 75px; 
+    
+}
+
+.banner h1{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif; 
+    text-transform: uppercase; 
+    margin-top: -10px;
+}
+
+.banner p{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'OpenSans-Regular'; 
+    line-height: 24px; 
+    padding: 1px 0px 0px 480px;
+}
+
+
+
+.banner a{
+    height: 31px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    line-height: 31px; 
+    padding: 0px 17px;
+    margin: 20px 0px 0px 20px;
+    color: #fff;
+    border: 1px solid #fff; 
+    box-sizing: border-box;
+    display: inline-block; 
+    text-transform: uppercase; 
+
+    transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -webkit-transition: all linear .4s; 
+} 
+
+
+
+
+
+.banner a:hover{
+    background: #0872b9;
+    border-color: #0872b9;
+}
+
+
+
+/*==================
+Banner CSS ends 
+==================== */ 
+
+.about-bg{
+    height: 330px;
+    margin-top: 50px;
+}
+
+.about-bg .about{
+    height: 330px;
+    
+}
+
+.about .about-heading{
+    width: 940px;
+    height: 65px;
+    
+}
+
+.about .about-heading .line{
+    left: 420px;
+}
+
+.about .about-content{
+    width: 940px;
+    height: 265px;
+    
+}
+
+
+.about .about-content .about-image{
+    width: 380px;
+    height: 265px;
+    
+    float: left;
+}
+
+.about .about-content .about-image img{
+    width: 100%;
+}
+
+.about .about-content .about-text{
+    width: 540px;
+    height: 265px;
+    
+    float: left;
+}
+
+.about .about-content .about-text p{
+    font-family: 'OpenSans-Regular';
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #353535; 
+    padding-top: 35px;
+}
+
+.about .about-content .about-text p:last-of-type{
+    margin-top: -15px;
+}
+
+
+/*==================
+About CSS ends 
+==================== */ 
+
+
+
+.service-bg{
+    height: 260px;
+    margin-top: 50px;
+
+}
+
+.service-bg .service{
+    height: 260px;
+}
+
+.service .service-heading{
+    height: 55px;
+}
+
+.service .service-heading .line{
+    left: 403px;
+}
+
+.service .service-content{
+    height: 165px;
+    margin-top: 40px;
+}
+
+.service .service-content .service-item{
+    width: 300px;
+    height: 165px;
+    background: #f1f1f1;
+    float: left;
+    position: relative;
+    text-align: center; 
+    transition: all linear .4s;
+}
+
+.service .service-content .service-item:hover{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+.service-content .service-item .service-icon{
+    width: 73px;
+    height: 73px;
+    background: #f1f1f1;
+    border: 2px solid #fff;
+    box-sizing: border-box;
+    border-radius: 50%;
+    text-align: center;
+    padding-top: 15px;
+
+    position: absolute;
+    left: 50%;
+    top: -36.5px;
+    transform: translateX(-50%);
+    z-index: 5; 
+
+    transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -webkit-transition: all linear .4s; 
+
+}
+
+.service-content .service-item:hover .service-icon{
+    background: #5bc5f4;
+}
+
+
+
+
+
+.service-content .service-item .service-shadow{
+    width: 81px;
+    height: 81px;
+    background: #f1f1f1;
+    border: 3px solid #fff;
+    box-sizing: border-box; 
+    border-radius: 50%; 
+
+    position: absolute;
+    top: -40.5px;
+    left: 50%;
+    transform: translateX(-50%); 
+    z-index: 3; 
+
+    transition: all linear .4s;
+    -moz-transition: all linear .4s;
+    -o-transition: all linear .4s;
+    -ms-transition: all linear .4s;
+    -webkit-transition: all linear .4s;
+
+}
+
+.service-content .service-item:hover .service-shadow{
+    background: #5bc5f4;
+}
+
+
+
+
+.service .service-content .service-item h4{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #353535;
+    padding-top: 45px;
+}
+
+
+.service .service-content .service-item p{ 
+    font-family: 'OpenSans-Regular'; 
+    line-height: 24px;
+    font-size: 13px;
+    font-weight: 400;
+    color: #353535;
+    padding: 5px 10px 0px;
+}
+
+
+
+
+/*==================
+Service CSS ends 
+==================== */ 
+
+
+.portfolio-bg{
+    height: 600px;
+    margin-top: 50px;
+}
+
+.portfolio-bg .portfolio{
+    height: 600px;
+}
+
+.portfolio .portfolio-heading{
+    height: 60px;
+}
+
+.portfolio .portfolio-heading .line{
+    left: 397px;
+}
+
+
+.portfolio .portfolio-content{
+    height: 540px;
+}
+
+
+.portfolio .portfolio-content .portfolio-col{ 
+    width: 220px;
+    height: 540px;
+    float: left;
+}
+
+.portfolio-content .portfolio-col .portfolio-item {
+    width: 220px;
+    position: relative;
+}
+
+.portfolio-content .portfolio-col .portfolio-item img{
+    width: 100%;
+}
+
+
+.portfolio-content .portfolio-col .portfolio-item .portfolio-overlay{
+    width: 100%;
+    height: 100%; 
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all linear .4s;
+
+}
+
+
+.portfolio-content .portfolio-col .portfolio-item:hover .portfolio-overlay{
+    opacity: 1;
+}
+
+
+
+
+
+.portfolio-content .portfolio-col .portfolio-item .portfolio-overlay .port-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.portfolio-content .portfolio-col .portfolio-item .portfolio-overlay a i{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    background: #5bc5f4; 
+    text-align: center;
+    line-height: 40px; 
+}
+
+
+
+
+
+
+/*==================
+Portfolio CSS ends 
+==================== */
+
+
+
+.team-bg{
+    height: 380px;
+    margin-top: 50px; 
+}
+
+
+.team-bg .team{
+    height: 380px;
+}
+
+.team .team-heading{
+    height: 60px;
+    width: 100%;
+}
+
+.team .team-heading .line{
+    left: 422px;
+}
+
+.team .team-member{
+    width: 220px;
+    height: 320px; 
+    float: left;
+    text-align: center;
+}
+
+.team .team-member .team-image{
+    position: relative;
+    overflow: hidden;
+
+    transition: all linear .4s;
+}
+
+.team .team-member:hover .team-image{
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.team .team-member .team-image img{
+    width: 100%;
+}
+
+
+.team-member .team-image .team-overlay{
+    width: 80px;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6); 
+    position: absolute;
+    top: 0;
+    right: -80px; 
+
+    transition: all linear .4s;
+}
+
+
+.team-member:hover .team-image .team-overlay{ 
+    right: 0;
+}
+
+
+
+
+
+.team-member .team-image .team-overlay ul{ 
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+
+
+.team-member .team-image .team-overlay ul li{
+    margin-bottom: 15px;
+}
+
+
+.team-member .team-image .team-overlay ul li:last-child{
+    margin-bottom: 0px;
+}
+
+
+.team-member .team-image .team-overlay ul li a i{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 50%;
+    color: #fff;
+
+    transition: all linear .4s;
+}
+
+
+.team-member .team-image .team-overlay ul li:hover a i{
+    background: #5bc5f4;
+    border-color: #5bc5f4; 
+}
+
+
+.team .team-member h4{
+    color: #353535; 
+    font-family: 'Oswald', sans-serif; 
+    font-size: 16px;
+    font-weight: 500; 
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.team .team-member:hover h4{
+    color: #5bc5f4;
+}
+
+
+.team .team-member p{
+    color: #555555; 
+    font-family: 'Oswald', sans-serif; 
+    font-size: 14px;
+    font-weight: 400; 
+    line-height: 24px;
+    text-transform: capitalize;
+}
+
+
+
+
+/*==================
+Team CSS ends 
+==================== */
+
+
+
+
+.testimonial-bg{
+    height: 370px;
+    margin-top: 50px;
+}
+
+.testimonial-bg .testimonial{
+    height: 370px;
+}
+
+.testimonial .heading{
+    width: 100%;
+    height: 60px;
+
+}
+
+.testimonial .heading .line{
+    left: 410px;
+}
+
+
+.testimonial .testimonial-item{
+    width: 460px;
+    float: left;
+    text-align: center;
+    margin-top: 3px;
+}
+
+
+.testimonial-text{
+    background: #f1f1f1; 
+    margin-top: 35px;
+
+    position: relative;
+}
+
+
+
+.testimonial-text::after{
+    content: '';
+    position: absolute;
+    top: -16px;
+    left: 50%;
+    width: 32px;
+    height: 32px;
+    background: #f1f1f1;
+
+    transform: translateX(-50%) rotate(45deg);
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.testimonial-text h4{
+    color: #353535;
+
+    font-family: 'Oswald', sans-serif; 
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+
+
+.testimonial-text .testimonial-icon{
+    color: #5bc5f4;
+    font-size: 13px;
+}
+
+
+.testimonial-text h6{
+    color: #555555; 
+    font-family: 'Oswald', sans-serif; 
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: capitalize;
+
+}
+
+.testimonial-text p{
+    color: #555555; 
+    font-family: 'Oswald', sans-serif; 
+    font-size: 13px;
+    font-weight: 400; 
+    line-height: 24px; 
+    padding: 20px;
+}
+
+
+
+
+/*==================
+Testimonial CSS ends 
+==================== */
+
+
+
+
+.footer-top-bg {
+    height: 250px;
+    background: #353535;
+    margin-top: 50px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.footer-top-bg .footer-top{
+    height: 250px;
+    background: #353535;
+}
+
+
+.footer-top .footer-top-logo{
+    width: 220px;
+    height: 250px;
+    background: #353535; 
+    float: left; 
+}
+
+
+.footer-top .footer-top-contact{
+    width: 220px;
+    height: 250px;
+    background: #353535; 
+    float: left; 
+}
+
+
+.footer-top .footer-top-link{
+    width: 140px;
+    height: 250px;
+    background: #353535; 
+    float: left; 
+}
+
+
+.footer-top .footer-top-gallery{
+    width: 300px;
+    height: 250px;
+    background: #353535; 
+    float: left; 
+}
+
+
+
+
+.footer-top .footer-top-item .footer-heading{
+    width: 100%; 
+    height: 60px;
+
+}
+
+
+.footer-top .footer-top-item .footer-heading h4{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+
+
+
+
+
+
+.footer-top .footer-top-item ul li{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'OpenSans-Regular';
+    line-height: 24px;
+    color: #f1f1f1;
+}
+
+
+
+.footer-top .footer-top-item .f-logo li:first-child{
+    margin-bottom: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-top .footer-top-item .f-contact .footer-icon i{
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    color: #fff;
+    background: #5bc5f4;
+    text-align: center;
+
+    font-size: 20px;
+
+}
+
+.footer-top .footer-top-item .f-contact li{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.footer-top .footer-top-item .f-contact li:last-child{
+    margin-bottom: 0;
+}
+
+
+.footer-top .footer-top-item .f-contact .footer-icon{
+    position: absolute;
+    top: 7px;
+    left: 0;
+}
+
+
+
+.footer-top .footer-top-item .f-contact a{
+    color: #f1f1f1;
+    display: block; 
+    padding-left: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.footer-top .footer-top-item .f-links{
+    width: 50%;
+    float: left;
+}
+
+
+.footer-top .footer-top-item .f-links a{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'OpenSans-Regular';
+    color: #fff;
+    text-transform: capitalize;
+
+    transition: all linear .4s;
+}
+
+
+.footer-top .footer-top-item .f-links li{
+    margin-bottom: 15px;
+}
+
+
+.footer-top .footer-top-item .f-links li:last-child{
+    margin-bottom: 0;
+} 
+
+
+.footer-top .footer-top-item .f-links li:hover a{
+    color: #5bc5f4;
+}
+
+
+
+
+.footer-top .footer-top-item .f-gallery li{
+    width: 90px;
+    float: left;
+}
+
+
+/* ============Footer-top css end=========== */
+
+
+
+
+.footer-bottom-bg {
+    height: 45px;
+    background: #555555; 
+} 
+
+
+.footer-bottom-bg .footer-bottom p{
+    text-align: center;
+    line-height: 45px;
+    color: #f1f1f1;
+
+    font-family: 'OpenSans-Regular';
+    font-size: 13px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+
+.footer-bottom-bg .footer-bottom p a{ 
+    color: #5bc5f4; 
+    font-family: 'Oswald', sans-serif; 
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+
+/* ============Footer-bottom css end=========== */
+
